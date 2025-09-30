@@ -7,12 +7,15 @@ import MatchesCard from "./components/MatchesCard";
 
 function App() {
   return (
-    <div className="app-container">
-      <WeatherCard />
-      <CurrencyCard />
-      <GoldCard />
-      <TransportCard />
-      <MatchesCard />
+    <div className="app">
+      <h1 className="app-title">📊 لوحة المعلومات اليومية</h1>
+      <div className="cards-grid">
+        <WeatherCard />
+        <CurrencyCard />
+        <GoldCard />
+        <TransportCard />
+        <MatchesCard />
+      </div>
     </div>
   );
 }
